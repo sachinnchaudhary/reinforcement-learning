@@ -31,3 +31,5 @@ for i in range(1000):
           env.reset()
           print(f"state:{state}")
           print(f"actions{reward}")
+
+env.close()
